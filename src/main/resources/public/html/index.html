@@ -1,11 +1,59 @@
 <html>
 <head>
-    <SCRIPT src="js/common/jquery.js"></SCRIPT>
-    <SCRIPT src="js/common/common_base.js"></SCRIPT>
+    <title>Belépés/Regisztráció</title>
+    <META charset='utf-8'>
+    <LINK rel="stylesheet" href="/css/classes.css">
+    <link rel="stylesheet" href="/css/index/index.css">
 
-    <SCRIPT src="js/characterselect/page_controller.js"></SCRIPT>
+    <script src="js/common/jquery.js"></script>
+    <script src="js/common/common_base.js"></script>
+
+    <script src="js/index/bejelentkezes.js"></script>
+    <script src="js/index/regisztracio.js"></script>
 </head>
-<FOOTER>
-    <BUTTON onclick='authService.logout()'>Kijelentkezés</BUTTON>
-</FOOTER>
+<body background="img/hatter_body.png" style="background-color:transparent;">
+
+<table id="fejlec" align="center">
+    <tr>
+        <td style="width:705px;">
+            <a><img src="img/logo.png"></a>
+        </td>
+        <td style="width:705px;float:right;">
+
+                <table id="belepes_tabla">
+                    <tr>
+                        <td style="color:white;"  align="center"><font size="1">Felhaszálónév:</font></td>
+                        <td style="color:white;"  align="center"><font size="1">Jelszó:</font></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="userName" class="logininput" placeholder="Felhasználónév" required autofocus></td>
+                        <td><input type="password" id="password" class="logininput" placeholder="Jelszó" required></td>
+                        <td rowspan="2" align="center"><button id='login_button' onclick="loginController.sendForm()">Belépek</button></td>
+                    </tr>
+                </table>
+
+        </td>
+    </tr>
+</table>
+<table align="center">
+    <tr>
+        <td id="kozep_td1"><p>Egyes blok</p></td>
+        <td id="kozep_td2">
+            <h1>Regisztráció</h1>
+
+            <p><input id="reg_felhasznalonev" name="username" placeholder="Felhasznalonev" class="inputs"></p>
+
+            <p><input type="password" id="reg_jelszo" placeholder="Jelszó" class="inputs"></p>
+
+            <p><input id="reg_emailcim" name="email" placeholder="Emailcim" class="inputs"></p>
+
+            <p><button onclick='regisztracio()'>Regisztráció</button></p>
+        </td>
+        <td id="kozep_td1"><p>Harmas blok</p></td>
+    </tr>
+    <tr>
+        <td id="alja" colspan="3">PoverBy: Magyari Ottó @2018</td>
+    </tr>
+</table>
+</body>
 </html>

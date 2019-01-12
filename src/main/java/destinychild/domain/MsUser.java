@@ -15,4 +15,5 @@ public class MsUser {
     private Long id;
     private String userName;
     private String password;
+    private String email;
 }

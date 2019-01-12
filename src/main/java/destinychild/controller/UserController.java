@@ -27,7 +27,9 @@ public class UserController {
         MsUser msUser = new MsUser();
         msUser.setUserName(request.getUserName());
         msUser.setPassword(passwordService.hashPassword(request.getPassword()));
+        msUser.setEmail(request.getEmail());
         MsUser registeredUser = userRepository.save(msUser);
+
         log.info("Registered user: {}", registeredUser);
     }
 

@@ -24,7 +24,6 @@
             if(!result){
                 throwException("IllegalState", "undefined result from dao.");
             }
-            alert(JSON.stringify(result));
             if(result.status == ResponseStatus.UNAUTHORIZED){
                 return false;
             }else if(result.status == ResponseStatus.OK){

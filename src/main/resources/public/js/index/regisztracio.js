@@ -1,16 +1,17 @@
 function regisztracio(){
 	var reg_felhasznalonev = document.getElementById("reg_felhasznalonev").value;
+	var reg_jelszo = document.getElementById("reg_jelszo").value;
 	var reg_emailcim = document.getElementById("reg_emailcim").value;
-	var reg_jelszo1 = document.getElementById("reg_jelszo1").value;
-	var reg_jelszo2 = document.getElementById("reg_jelszo2").value;
 	
 	var request = new XMLHttpRequest();
 	request.open("POST", "register", 0);
 	request.setRequestHeader("Content-Type", "application/json");
+	request.setRequestHeader("Request-Type", "rest");
 
 	const data = {
 	    userName: reg_felhasznalonev,
-	    password: reg_jelszo1
+	    password: reg_jelszo,
+	    email: reg_emailcim
 	};
 	request.send(JSON.stringify(data));
 	
@@ -69,8 +70,8 @@ function regisztracio(){
 		alert("Email cim es jelszo megadasa kotelezo.");
 	}
 	
-	if(errors.length>0){
+	/*if(errors.length>0){
 		reportErrors(errors);
 		return false;
-	}
+	}*/
 }

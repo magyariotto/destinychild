@@ -19,12 +19,12 @@ public class PropertySourceImpl implements PropertySource {
 
     @Override
     public String getUnauthorizedRedirection() {
-        return "/";
+        return "/unauthorized";
     }
 
     @Override
     public String getForbiddenRedirection() {
-        return "/";
+        return "/forbidden";
     }
 
     @Override
@@ -42,11 +42,12 @@ public class PropertySourceImpl implements PropertySource {
         return Arrays.asList(
                 "/",
                 "/**/favicon.ico",
-                "/login",
                 "/css/**",
                 "/img/**",
                 "/js/**",
-                "/register"
+                "/register",
+                "/unauthorized",
+                "/home"
         );
     }
 
@@ -72,7 +73,7 @@ public class PropertySourceImpl implements PropertySource {
 
     @Override
     public String getSuccessfulLoginRedirection() {
-        return "";
+        return "home";
     }
 
     @Override

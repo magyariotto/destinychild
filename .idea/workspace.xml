@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55150b82-25c6-4e46-b164-6df2f98ad403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/home/regisztracio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/destinychild/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/destinychild/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/destinychild/auth/PropertySourceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/destinychild/auth/PropertySourceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/destinychild/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/destinychild/controller/PageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/destinychild/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/destinychild/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/destinychild/controller/request/RegisterUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/destinychild/controller/request/RegisterUserRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/destinychild/domain/MsUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/destinychild/domain/MsUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/public/html/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/html/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/common/auth_service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/js/common/auth_service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/index/bejelentkezes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/js/home/bejelentkezes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/common/dao.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/js/common/dao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/home/bejelentkezes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/js/index/bejelentkezes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/home/regisztracio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/js/index/regisztracio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/destinychild/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/destinychild/Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/destinychild/auth/PropertySourceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/destinychild/auth/PropertySourceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/destinychild/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/destinychild/controller/PageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/destinychild/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/destinychild/controller/UserController.class" afterDir="false" />
@@ -19,7 +22,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/destinychild/domain/MsUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/destinychild/domain/MsUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/public/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/public/js/common/auth_service.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/js/common/auth_service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/public/js/index/login_form_controller.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -136,39 +138,39 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="6" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="7" />
-          <entry key="java" value="32" />
-          <entry key="js" value="6" />
+          <entry key="html" value="14" />
+          <entry key="java" value="68" />
+          <entry key="js" value="19" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="HTML" value="7" />
-          <entry key="JAVA" value="32" />
-          <entry key="JavaScript" value="6" />
+          <entry key="CLASS" value="6" />
+          <entry key="HTML" value="14" />
+          <entry key="JAVA" value="68" />
+          <entry key="JavaScript" value="19" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="49" />
-          <entry key="java" value="238" />
-          <entry key="js" value="335" />
-          <entry key="txt" value="21" />
+          <entry key="html" value="151" />
+          <entry key="java" value="466" />
+          <entry key="js" value="723" />
+          <entry key="txt" value="30" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="49" />
-          <entry key="JAVA" value="238" />
-          <entry key="JavaScript" value="335" />
-          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="HTML" value="151" />
+          <entry key="JAVA" value="466" />
+          <entry key="JavaScript" value="723" />
+          <entry key="PLAIN_TEXT" value="30" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -176,11 +178,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/home/bejelentkezes.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/public/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+            <state relative-caret-position="136">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/index/bejelentkezes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="50" column="74" selection-start-line="50" selection-start-column="74" selection-end-line="50" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/request/RegisterUserRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,8 +211,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="197">
+              <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,22 +221,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/PageController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/index/regisztracio.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/auth_service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            <state relative-caret-position="102">
+              <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -234,6 +245,7 @@
     <findStrings>
       <find>skyxplore</find>
       <find>AccessTokenEntity</find>
+      <find>reg_jelszo</find>
     </findStrings>
     <dirStrings>
       <dir>A:\mysystem\src\main\java\mysystem</dir>
@@ -245,10 +257,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/service/CommunityFacade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/service/EquippedShipFacade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/exception/base/BadSlotNameException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/exception/BadSlotNameException.java" />
         <option value="$PROJECT_DIR$/src/main/java/mysystem/service/ship/EquipService.java" />
         <option value="$PROJECT_DIR$/src/main/java/mysystem/service/ship/EquipUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/mysystem/service/ship/EquipShipService.java" />
@@ -282,20 +290,24 @@
         <option value="$PROJECT_DIR$/src/main/resources/public/js/common/common_base.js" />
         <option value="$PROJECT_DIR$/src/main/java/mysystem/auth/PropertySourceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/css/common.css" />
-        <option value="$PROJECT_DIR$/src/main/java/destinychild/Application.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/css/index/index.css" />
         <option value="$PROJECT_DIR$/src/main/resources/public/js/index/login_form_controller.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/html/index.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/destinychild/domain/MsUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/request/RegisterUserRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/html/home.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/js/home/regisztracio.js" />
-        <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/js/common/auth_service.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/js/home/bejelentkezes.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/html/home.html" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/js/home/regisztracio.js" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/domain/MsUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/UserController.java" />
+        <option value="$USER_HOME$/Desktop/Mentesek/2019.01.12 16_41 destinychild/destinychild/src/main/java/destinychild/controller/PageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/PageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/destinychild/auth/PropertySourceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/js/home/bejelentkezes.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/js/common/dao.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/js/index/regisztracio.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/html/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/js/index/bejelentkezes.js" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/request/RegisterUserRequest.java" />
       </list>
     </option>
   </component>
@@ -475,7 +487,7 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
@@ -484,58 +496,126 @@
             <path>
               <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.saphyra:encryption:1.0.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: com.github.saphyra:auth-service:1.1.0" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.saphyra:encryption:1.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="encryption-1.0.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: com.github.saphyra:auth-service:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="auth-service-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.saphyra:encryption:1.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="encryption-1.0.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: com.github.saphyra:auth-service:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="auth-service-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.saphyra:encryption:1.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="encryption-1.0.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.saphyra:encryption:1.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="encryption-1.0.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: com.github.saphyra:auth-service:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="auth-service-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="saphyra" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.saphyra:encryption:1.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="encryption-1.0.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: com.github.saphyra:auth-service:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="auth-service-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="github" type="462c0819:PsiDirectoryNode" />
               <item name="saphyra" type="462c0819:PsiDirectoryNode" />
-              <item name="encryption" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.saphyra:encryption:1.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="encryption-1.0.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: com.github.saphyra:auth-service:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="auth-service-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="github" type="462c0819:PsiDirectoryNode" />
               <item name="saphyra" type="462c0819:PsiDirectoryNode" />
-              <item name="encryption" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.saphyra:auth-service:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="auth-service-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="saphyra" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.saphyra:auth-service:1.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="auth-service-1.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="saphyra" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="bind" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="bind" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -583,9 +663,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="jpaq&#9;PSI&#9;JAVA://org.springframework.data.jpa.repository.query.JpaQueryCreator&#10;user&#9;FILE&#9;file://A:/mysystem/src/main/resources/public/js/common/dao/user_dao.js&#10;AuthControl&#9;PSI&#9;JAVA://com.github.saphyra.authservice.controller.AuthController&#10;AccessToken&#9;FILE&#9;jar://C:/Users/Magyari Otto/.m2/repository/com/github/saphyra/auth-service/1.0.3/auth-service-1.0.3.jar!/com/github/saphyra/authservice/domain/AccessToken.class&#10;entityManagerFactory&#9;PSI&#9;JAVA://javax.persistence.EntityManagerFactory&#10;dataq&#9;PSI&#9;JAVA://mysystem.service.gamedata.DataQueryService&#10;gamedataf&#9;PSI&#9;JAVA://mysystem.service.GameDataFacade&#10;gameda&#9;FILE&#9;file://A:/mysystem/src/main/java/mysystem/configuration/GameDataConfig.java&#10;armors&#9;PSI&#9;JAVA://mysystem.dataaccess.gamedata.subservice.ArmorService&#10;login&#9;FILE&#9;file://A:/mysystem/src/main/java/mysystem/controller/view/LoginController.java&#10;game&#9;PSI&#9;JAVA://mysystem.configuration.GameDataConfig&#10;acc&#9;PSI&#9;JAVA://mysystem.dataaccess.db.AccessTokenDao" />
+    <property name="SearchEverywhereHistoryKey" value="LoginReq&#9;PSI&#9;JAVA://com.github.saphyra.authservice.controller.request.LoginRequest&#10;jpaq&#9;PSI&#9;JAVA://org.springframework.data.jpa.repository.query.JpaQueryCreator&#10;user&#9;FILE&#9;file://A:/mysystem/src/main/resources/public/js/common/dao/user_dao.js&#10;AuthControl&#9;PSI&#9;JAVA://com.github.saphyra.authservice.controller.AuthController&#10;AccessToken&#9;FILE&#9;jar://C:/Users/Magyari Otto/.m2/repository/com/github/saphyra/auth-service/1.0.3/auth-service-1.0.3.jar!/com/github/saphyra/authservice/domain/AccessToken.class&#10;entityManagerFactory&#9;PSI&#9;JAVA://javax.persistence.EntityManagerFactory&#10;dataq&#9;PSI&#9;JAVA://mysystem.service.gamedata.DataQueryService&#10;gamedataf&#9;PSI&#9;JAVA://mysystem.service.GameDataFacade&#10;gameda&#9;FILE&#9;file://A:/mysystem/src/main/java/mysystem/configuration/GameDataConfig.java&#10;armors&#9;PSI&#9;JAVA://mysystem.dataaccess.gamedata.subservice.ArmorService&#10;login&#9;FILE&#9;file://A:/mysystem/src/main/java/mysystem/controller/view/LoginController.java&#10;game&#9;PSI&#9;JAVA://mysystem.configuration.GameDataConfig&#10;acc&#9;PSI&#9;JAVA://mysystem.dataaccess.db.AccessTokenDao" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547303979004" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547309948920" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="A:/Programs/Git/skyxplore2_1" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -668,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547299890936</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Register">
+      <created>1547304031374</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547304031374</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -684,7 +771,7 @@
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.260745" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.260745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -693,7 +780,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32845744" />
-      <window_info anchor="bottom" x="0" y="31" width="1434" height="841" id="Run" order="2" sideWeight="0.497851" visible="true" weight="0.24069148" />
+      <window_info active="true" anchor="bottom" x="0" y="31" width="1434" height="841" id="Run" order="2" sideWeight="0.497851" visible="true" weight="0.29787233" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -721,49 +808,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update auth-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update auth-service" />
+    <MESSAGE value="Register" />
+    <option name="LAST_COMMIT_MESSAGE" value="Register" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://A:/Programs/src.zip!/java/util/function/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/saphyra/auth-service/1.0.3/auth-service-1.0.3.jar!/com/github/saphyra/authservice/filter/AuthFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/saphyra/auth-service/1.0.3/auth-service-1.0.3.jar!/com/github/saphyra/authservice/service/LoginService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="49" column="132" selection-start-line="49" selection-start-column="132" selection-end-line="49" selection-end-column="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://A:/Programs/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="747" selection-start-line="747" selection-end-line="747" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/saphyra/encryption/1.0.1/encryption-1.0.1.jar!/com/github/saphyra/encryption/impl/PasswordService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/shop/menu_controller.js" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/dao/user_dao.js" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/index/registration_form_controller.js" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/jquery.js">
@@ -774,11 +826,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/notificationservice.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1020" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/dao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1970" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/cache.js">
@@ -837,13 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/AccessTokenRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/css/common.css" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.6.RELEASE/spring-jdbc-5.0.6.RELEASE.jar!/org/springframework/jdbc/support/JdbcUtils.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -855,22 +895,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/css/classes.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/html/home.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/html/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/AccessTokenService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/MsAccessToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -893,27 +919,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/config/ThymeleafConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -924,31 +933,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/html/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.7.RELEASE/spring-data-commons-2.0.7.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/home/regisztracio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -961,42 +949,114 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/AuthDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="-135">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/html/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/config/ThymeleafConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/AccessTokenRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/saphyra/exception-handling/1.0.1/exception-handling-1.0.1.jar!/com/github/saphyra/exceptionhandling/DefaultExceptionHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/saphyra/exception-handling/1.0.1/exception-handling-1.0.1.jar!/com/github/saphyra/exceptionhandling/EnableExceptionHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/MsAccessToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/AccessTokenService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Mentesek/2019.01.12 16_41 destinychild/destinychild/src/main/java/destinychild/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/html/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/PropertySourceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/domain/MsUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/request/RegisterUserRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1005,32 +1065,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/auth_service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        <state relative-caret-position="-187">
+          <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/PropertySourceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/dao.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-310">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/saphyra/auth-service/1.1.0/auth-service-1.1.0.jar!/com/github/saphyra/authservice/controller/request/LoginRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/index/bejelentkezes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="50" column="74" selection-start-line="50" selection-start-column="74" selection-end-line="50" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/web/bind/annotation/RequestBody.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/domain/MsUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/index/regisztracio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="102">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/home/bejelentkezes.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/request/RegisterUserRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+        <state relative-caret-position="340">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -53,6 +53,7 @@
             request.setRequestHeader("Request-Type", "rest");
             request.send(content);
             if(handleLogout && request.status == 401){
+                alert("asdad");
                 authService.logout();
             }else if(request.status == 403){
                 window.location.href = "characterselect";

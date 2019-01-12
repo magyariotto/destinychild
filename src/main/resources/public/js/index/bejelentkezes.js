@@ -2,12 +2,12 @@
     window.loginController = new function(){
         this.sendForm = sendForm;
         this.login = login;
-        
+
         $(document).ready(function(){
             addListeners();
         });
     }
-    
+
     /*
     Sends the login form.
     */
@@ -15,10 +15,10 @@
         try{
             const userNameInput = document.getElementById("userName");
             const passwordInput = document.getElementById("password");
-            
+
             const userName = userNameInput.value;
             const password = passwordInput.value;
-            
+
             if(userName == ""){
                 notificationService.showError("Adja meg felhasználónevét!");
             }else if(password == ""){
@@ -50,7 +50,7 @@
 
             const loginSuccessful = authService.login(userName, password);
             if(loginSuccessful){
-               window.open("index");
+                window.location.href = "home";
             }else{
                 notificationService.showError("Hibás felhasználónév vagy jelszó.");
                 document.getElementById("login_password").value = "";
@@ -60,7 +60,7 @@
             logService.log(message, "error");
         }
     }
-    
+
     function addListeners(){
         try{
             $(".logininput").on("keyup", function(e){
