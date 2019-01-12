@@ -47,9 +47,10 @@
             if(password == null || password == undefined){
                 throwException("IllegalArgument", "password must not be null or undefined");
             }
-            
-            if(authService.login(userName, password)){
-                window.location.href = "/characterselect";
+
+            const loginSuccessful = authService.login(userName, password);
+            if(loginSuccessful){
+               window.open("index");
             }else{
                 notificationService.showError("Hibás felhasználónév vagy jelszó.");
                 document.getElementById("login_password").value = "";

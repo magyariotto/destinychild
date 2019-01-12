@@ -9,7 +9,7 @@ import java.util.*;
 public class PropertySourceImpl implements PropertySource {
     @Override
     public String getRequestTypeHeader() {
-        return "RequestType";
+        return "Request-Type";
     }
 
     @Override
@@ -45,7 +45,8 @@ public class PropertySourceImpl implements PropertySource {
                 "/login",
                 "/css/**",
                 "/img/**",
-                "/js/**"
+                "/js/**",
+                "/register"
         );
     }
 
