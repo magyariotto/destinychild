@@ -6,17 +6,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class PageController {
 
-    @GetMapping("/characterselect")
-    public String characterSelect(){
-        return "characterselect";
+    @GetMapping("/index")
+    public String index(){
+        return "index";
     }
 
     @GetMapping("/")
     public String login(){
-        return "index";
-    }
-    @GetMapping("/home")
-    public String homepage(){
         return "home";
     }
+
+
 }

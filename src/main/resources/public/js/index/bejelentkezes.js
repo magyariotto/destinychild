@@ -49,7 +49,7 @@
             }
             
             if(authService.login(userName, password)){
-                window.location.href = "/characterselect";
+                window.location.href = "/index";
             }else{
                 notificationService.showError("Hibás felhasználónév vagy jelszó.");
                 document.getElementById("login_password").value = "";

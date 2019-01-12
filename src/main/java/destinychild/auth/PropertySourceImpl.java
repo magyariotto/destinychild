@@ -1,7 +1,6 @@
 package destinychild.auth;
 
 import com.github.saphyra.authservice.PropertySource;
-import com.github.saphyra.authservice.domain.Role;
 import org.springframework.stereotype.Component;
 
 import java.util.*;
@@ -51,7 +50,7 @@ public class PropertySourceImpl implements PropertySource {
     }
 
     @Override
-    public Map<String, Set<Role>> getRoleSettings() {
+    public Map<String, Set<String>> getRoleSettings() {
         return new HashMap<>();
     }
 
@@ -68,5 +67,15 @@ public class PropertySourceImpl implements PropertySource {
     @Override
     public int getFilterOrder() {
         return 0;
+    }
+
+    @Override
+    public String getSuccessfulLoginRedirection() {
+        return "";
+    }
+
+    @Override
+    public Optional<String> getLogoutRedirection() {
+        return Optional.empty();
     }
 }
