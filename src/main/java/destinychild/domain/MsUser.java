@@ -16,4 +16,6 @@ public class MsUser {
     private String userName;
     private String password;
     private String email;
+    private String tp;
+    private String szint;
 }

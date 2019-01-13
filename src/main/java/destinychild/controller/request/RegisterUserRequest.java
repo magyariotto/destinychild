@@ -9,11 +9,11 @@ import javax.validation.constraints.Size;
 @Data
 public class RegisterUserRequest {
     @NotNull
-    @Size(min = 3, max = 15)
+    @Size(min = 5, max = 15)
     private String userName;
 
     @NotNull
-    @Size(min = 4, max = 15)
+    @Size(min = 5, max = 15)
     private String password;
 
     @NotNull

@@ -19,12 +19,12 @@ public class PropertySourceImpl implements PropertySource {
 
     @Override
     public String getUnauthorizedRedirection() {
-        return "/unauthorized";
+        return "";
     }
 
     @Override
     public String getForbiddenRedirection() {
-        return "/forbidden";
+        return "";
     }
 
     @Override
@@ -46,8 +46,7 @@ public class PropertySourceImpl implements PropertySource {
                 "/img/**",
                 "/js/**",
                 "/register",
-                "/unauthorized",
-                "/home"
+                "/user/name/exist"
         );
     }
 
