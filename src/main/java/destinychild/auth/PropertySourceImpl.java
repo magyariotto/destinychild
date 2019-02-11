@@ -7,6 +7,9 @@ import java.util.*;
 
 @Component
 public class PropertySourceImpl implements PropertySource {
+
+    public static final String COOKIE_USER_ID = "cookie_user_id";
+
     @Override
     public String getRequestTypeHeader() {
         return "Request-Type";
@@ -34,7 +37,7 @@ public class PropertySourceImpl implements PropertySource {
 
     @Override
     public String getUserIdCookie() {
-        return "cookie_user_id";
+        return COOKIE_USER_ID;
     }
 
     @Override

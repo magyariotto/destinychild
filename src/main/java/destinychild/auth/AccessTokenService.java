@@ -1,6 +1,8 @@
 package destinychild.auth;
 
 import com.github.saphyra.authservice.domain.AccessToken;
+import destinychild.accesstoken.MsAccessToken;
+import destinychild.repository.AccessTokenRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

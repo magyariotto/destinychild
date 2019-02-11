@@ -1,4 +1,4 @@
-package destinychild.auth;
+package destinychild.accesstoken;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

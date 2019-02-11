@@ -67,6 +67,7 @@
                 try{
                     const mainContainer = document.createElement("DIV");
                         mainContainer.classList.add("cover");
+                        mainContainer.classList.add("backgroundblack");
                         mainContainer.id = "logcontainermain";
                         
                         const title = document.createElement("H1");

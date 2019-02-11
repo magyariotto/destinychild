@@ -1,0 +1,142 @@
+﻿#background{
+	background-image: url('../img/hatter_body.png');
+	background-repeat: no-repeat;
+	height: 95%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#tabla1{
+	border-width: 6px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	height: 150px;
+	width: 1150px;
+	background-color: rgb(26, 26, 26);
+	margin-top: 15px;
+	margin-bottom: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+}
+#tabla2{
+	margin: 0px auto;
+	min-height: 130px;
+	width: 1150px;
+	height: 100%;
+}
+#tabla3{
+	border-width: 6px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(26, 26, 26);
+	width: 300px;
+	height: 150px;
+	margin: 0 auto;
+}
+#tabla4{
+	border-width: 2px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(60, 60, 60);
+	width: 850px;
+	height: 100%;
+	margin: 0px auto;
+	color: white;
+}
+#tabla5{
+	border-width: 4px;
+	border-style: inset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(26, 26, 26);
+	float: left;
+	margin: 0px 0px;
+	width: 850px;
+	height: 100%;
+	text-align: center;
+}
+#tabla6{
+	border-width: 4px;
+	border-style: inset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(26, 26, 26);
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+	color: white;
+}
+#td1{
+	width: 1300px;
+	height: 18px;
+}
+#td2{
+	width: 320px;
+	height: 150px;
+}
+#td3{
+	width: 978px;
+	height: 100%;
+	margin: 0px 5px;
+}
+#td4{
+	width: 100%;
+	height: 29px;
+}
+#td5{
+	width: 100%;
+	height: 100px;
+}
+#td8{
+	width: 70px;
+	height: 50%;
+	text-align: center;
+}
+#td9{
+	border-width: 1,1px;
+	border-style: ridge;
+	width: 70%;
+	height: 50%;
+	text-align: center;
+}
+#nd{
+	width: 143px;
+}
+#td10{
+	width: auto;
+}
+#td11{
+	float: right;
+}
+#div1{
+	float: left;
+	display: inline;
+	height: 1px;
+	margin: 0px 0px 0px 0px;
+}
+#menu_gomb{
+	width: 148px;
+	height: 100px;
+	display: inline;
+	background-color: #3385ff;
+	border-radius: 14px 14px 14px 14px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 7px;
+	margin-left: 7px;;
+}
+#menu_gomb:hover{
+	border-radius: 14px 14px 14px 14px;
+	box-shadow: 0 0 35px 7px red;
+	background-color: red;
+}
+#menu_gomb:active {
+  background-color: green;
+  box-shadow: 0 0 35px 7px green;
+  transform: translateY(5px);
+}

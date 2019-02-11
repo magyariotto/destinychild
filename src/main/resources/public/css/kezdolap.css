@@ -1,0 +1,230 @@
+﻿#home_tabla1{
+	border-width: 6px;
+	border-style: inset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-image: url('../img/hatter_body.png');
+	background-position: calc(100% + 81px) calc(100% - 658px);
+	margin: 40px auto;
+}
+#home_tabla2{
+	border-width: 6px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	height: 400px;
+	width: 450px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+#home_tabla3{
+	border-width: 6px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(26, 26, 26);
+	width: 400px;
+	height: 400px;
+	color: white;
+	text-align: center;
+}
+#home_tabla4{
+	border-width: 6px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(26, 26, 26);
+	width: 400px;
+	height: 400px;
+	color: white;
+	text-align: center;
+}
+#home_td3{
+	height: 360px;
+}
+#kozep_div1{
+	border-width: 6px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(26, 26, 26);
+	width: 1405px;
+	height: 550px;
+}
+#kozep_div2{
+	border-width: 6px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(26, 26, 26);
+	width: 1405px;
+	height: 25px;
+	color: white;
+	text-align: center;
+}
+.szallag{
+	height: 10px;
+	width: 220px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: rgb(166, 166, 166);
+}
+#bazis_fejlec{
+	border-width: 2px;
+	border-style: inset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	height: 20px;
+	width: 400px;
+	color: white;
+}
+#bazis_fejlec_td1{
+	border-width: 2px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	width: 265px;
+	color: white;
+	text-align: center;
+}
+#bazis_fejlec_td2{
+	border-width: 2px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	width: 95px;
+	color: white;
+	text-align: center;
+}
+#bazis_menu{
+	border-width: 2px;
+	border-style: inset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	height: 350px;
+	width: 400px;
+	color: white;
+}
+#bazis_menu_td1{
+	border-width: 1px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	height: 20px;
+	width: 50px;
+	color: white;
+	text-align: center;
+}
+#bazis_menu_td2{
+	border-width: 1px;
+	border-style: inset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	height: 35px;
+	width: 380px;
+	color: white;
+}
+.hexagon {
+	position: relative;
+	width: 40px; 
+	height: 23.09px;
+	background-color: rgb(26, 26, 26);
+	margin: 11.55px 0;
+	border-left: inset 2px rgb(38, 38, 38);
+	border-right: inset 2px rgb(38, 38, 38);
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+.hexagon:before,
+.hexagon:after {
+	content: "";
+	position: absolute;
+	z-index: 0;
+	width: 28.28px;
+	height: 28.28px;
+	transform: scaleY(0.5774) rotate(-45deg);
+	left: 5.0579px;
+}
+
+.hexagon:before {
+	top: -14.1421px;
+	border-top: inset 2.4142px rgb(38, 38, 38);
+	border-right: inset 2.4142px rgb(38, 38, 38);
+}
+
+.hexagon:after {
+	bottom: -14.1421px;
+	border-bottom: inset 2.4142px rgb(38, 38, 38);
+	border-left: inset 2.4142px rgb(38, 38, 38);
+}
+#megnevezestd{
+	width: 85px;
+	color: white;
+	cursor: pointer;
+}
+#elemektd{
+	border-width: 2px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(26, 26, 26);
+	height: 40px;
+	width: 400px;
+	color: white;
+}
+#targyak{
+	border-width: 3px;
+	border-style: inset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	width: 375px;
+	height: 370px;
+	color: white;
+	text-align: center;
+    overflow: auto;
+}
+#targy{
+	border-width: 3px;
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	width: 355px;
+	height: 90px;
+}
+#td_kep{
+	border-width: 2px;
+	border-style: inset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	width: 80px;
+	height: 70px;
+}
+#nagytabla{
+	border-width: 1px;
+	border-style: inset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	height: 70;
+	width: 248;
+}
+#kicsitabla1{
+	color: white;
+	border-width: 1px;															
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	height: 20;
+	width: 248;
+}
+#kicsitabla2{
+	color: white;
+	border-width: 1px;															
+	border-style: outset;
+	border-color: rgb(38, 38, 38);
+	border-radius: 10px 10px 10px 10px;
+	height: 45;
+	width: 248;
+}

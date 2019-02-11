@@ -1,0 +1,54 @@
+{
+  "id": 1,
+  "category": "iridium",
+  "banya1": {
+    "banyaid": 1;
+    "epites_koltseg": {
+      "kredit": 0,
+      "terra": 0
+    },
+    "nev": "Iridium banya 1",
+    "szintkorlat": 0,
+    "alaptermeles": 50
+  },
+  "banya2": {
+    "banyaid": 2,
+    "epites_koltseg": {
+      "kredit": 0,
+      "terra": 0
+    },
+    "nev": "Iridium banya 2",
+    "szintkorlat": 5,
+    "alaptermeles": 100
+  },
+  "banya3": {
+    "banyaid": 2,
+    "epites_koltseg": {
+      "kredit": 0,
+      "terra": 0
+    },
+    "nev": "Iridium banya 3",
+    "szintkorlat": 10,
+    "alaptermeles": 200
+  },
+  "banya4": {
+    "banyaid": 2,
+    "epites_koltseg": {
+      "kredit": 0,
+      "terra": 0
+    },
+    "nev": "Iridium banya 4",
+    "szintkorlat": 20,
+    "alaptermeles": 400
+  },
+  "banya5": {
+    "banyaid": 2,
+    "epites_koltseg": {
+      "kredit": 0,
+      "terra": 0
+    },
+    "nev": "Iridium banya 5",
+    "szintkorlat": 40,
+    "alaptermeles": 800
+  }
+}

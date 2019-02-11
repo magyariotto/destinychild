@@ -18,4 +18,8 @@ public class MsUser {
     private String email;
     private String tp;
     private String szint;
+    private String nyersanyagok;
+    private String energia;
+    private String szovetseg;
+    private String planetNumber;
 }

@@ -22,7 +22,7 @@ function regisztracio(){
             return;
         }
 
-        else if(reg_jelszo == ""){
+        if(reg_jelszo == ""){
             notificationService.showError("Jelszo megadasa kotelezo!");
             return;
         }else if(reg_jelszo.length < 5){
@@ -33,14 +33,13 @@ function regisztracio(){
             return;
         }
 
-        else if(reg_email == ""){
+        if(reg_email == ""){
             notificationService.showError("Email cim megadasa kotelezo!");
             return;
         }else if(!isEmailValid(reg_email)){
             notificationService.showError("Ervenytelen email!");
             return;
         }
-
         const data = {
         	    userName: reg_felhasznalonev,
         	    password: reg_jelszo,

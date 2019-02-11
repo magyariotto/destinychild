@@ -2,20 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55150b82-25c6-4e46-b164-6df2f98ad403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/destinychild/controller/request/OneStringParamRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/destinychild/controller/request/SolarCoordinateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/destinychild/controller/view/FullSolarView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/destinychild/controller/view/SolarView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/destinychild/controller/view/UserView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/destinychild/generator/coordinateGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/destinychild/repository/CoordinateFullRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/destinychild/repository/CoordinateGeneratorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/destinychild/repository/CoordinateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/destinychild/repository/SolarSystemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/gamedata/banyak/iridium_banyak.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/html/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/home/page_controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/home/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/destinychild/auth/AccessTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/destinychild/repository/AccessTokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/destinychild/auth/AccessTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/destinychild/auth/AccessTokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/destinychild/auth/MsAccessToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/destinychild/accesstoken/MsAccessToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/destinychild/auth/PropertySourceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/destinychild/auth/PropertySourceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/destinychild/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/destinychild/controller/PageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/destinychild/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/destinychild/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/destinychild/controller/request/RegisterUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/destinychild/controller/request/RegisterUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/destinychild/controller/request/OneStringParamRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/destinychild/controller/request/OneStringParamRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/destinychild/domain/MsUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/destinychild/domain/MsUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/common/dao.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/js/common/dao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/html/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/html/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/img/a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/img/a2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/img/a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/img/a4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/img/a5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/img/b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/common/logservice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/js/common/logservice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/index/regisztracio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/js/index/regisztracio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/destinychild/auth/AccessTokenRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/destinychild/auth/AccessTokenService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/destinychild/auth/AccessTokenService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/destinychild/auth/MsAccessToken$MsAccessTokenBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/destinychild/auth/MsAccessToken.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/destinychild/auth/PropertySourceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/destinychild/auth/PropertySourceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/destinychild/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/destinychild/controller/PageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/destinychild/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/destinychild/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/destinychild/controller/request/RegisterUserRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/destinychild/controller/request/RegisterUserRequest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/destinychild/domain/MsUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/destinychild/domain/MsUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/public/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/img/a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/img/a2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/img/a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/img/a4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/img/a5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/img/b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/js/common/logservice.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/js/common/logservice.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +63,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/destinychild$Application.ic" NAME="Application Coverage Results" MODIFIED="1547303194555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/destinychild$Application.ic" NAME="Application Coverage Results" MODIFIED="1548268173632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>destinychild.*</FILTER>
     </SUITE>
   </component>
@@ -124,49 +159,72 @@
     <session id="-1583971334">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.15" value="2" />
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="7" />
+          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.15" value="3" />
+          <entry key="project.open.time.16" value="4" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="6" />
+          <entry key="class" value="7" />
+          <entry key="css" value="7" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="16" />
-          <entry key="java" value="85" />
-          <entry key="js" value="24" />
+          <entry key="html" value="30" />
+          <entry key="java" value="296" />
+          <entry key="js" value="58" />
+          <entry key="json" value="1" />
+          <entry key="kt" value="1" />
+          <entry key="properties" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
-          <entry key="HTML" value="16" />
-          <entry key="JAVA" value="85" />
-          <entry key="JavaScript" value="24" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="CLASS" value="7" />
+          <entry key="CSS" value="7" />
+          <entry key="HTML" value="30" />
+          <entry key="JAVA" value="296" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="53" />
+          <entry key="Kotlin" value="1" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Properties" value="2" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="151" />
-          <entry key="java" value="803" />
-          <entry key="js" value="1730" />
-          <entry key="txt" value="37" />
+          <entry key="css" value="154" />
+          <entry key="dummy" value="115" />
+          <entry key="html" value="1018" />
+          <entry key="java" value="6295" />
+          <entry key="js" value="4912" />
+          <entry key="json" value="338" />
+          <entry key="properties" value="21" />
+          <entry key="txt" value="60" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="151" />
-          <entry key="JAVA" value="803" />
-          <entry key="JavaScript" value="1730" />
-          <entry key="PLAIN_TEXT" value="37" />
+          <entry key="CSS" value="154" />
+          <entry key="HTML" value="1018" />
+          <entry key="JAVA" value="6295" />
+          <entry key="JSON" value="338" />
+          <entry key="JavaScript" value="4881" />
+          <entry key="PLAIN_TEXT" value="206" />
+          <entry key="Properties" value="21" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -174,52 +232,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/index/regisztracio.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="84" column="41" lean-forward="true" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+            <state relative-caret-position="379">
+              <caret line="78" column="87" selection-start-line="78" selection-start-column="60" selection-end-line="78" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/home/mapnavigator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/public/html/map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="34" />
+            <state relative-caret-position="405">
+              <caret line="153" column="78" selection-start-line="153" selection-start-column="78" selection-end-line="153" selection-end-column="78" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1294#1295#0" expanded="true" />
-                <element signature="e#1341#1342#0" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#4;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#5;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#6;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#2;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#4;n#tr#2;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#5;n#tr#2;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#7;n#tr#2;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/repository/UserRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/public/css/map.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/request/OneStringParamRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/domain/MsUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="309">
+              <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -232,6 +301,7 @@
         <option value="HTML File" />
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -242,6 +312,8 @@
       <find>AccessTokenEntity</find>
       <find>reg_jelszo</find>
       <find>errorMessage</find>
+      <find>coordinateFull</find>
+      <find>Fullsolar</find>
     </findStrings>
     <dirStrings>
       <dir>A:\mysystem\src\main\java\mysystem</dir>
@@ -253,57 +325,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/service/ship/EquipUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/service/ship/EquipShipService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/service/ship/ShipQueryService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/controller/view/ship/ShipView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/controller/view/slot/SlotViewConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/controller/view/ship/ShipViewConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/controller/view/ShipController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/service/product/ProductFactoryService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/service/ship/UnequipService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/controller/view/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/config/ThymeleafConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/controller/request/RegisterUserRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/repository/UserReponsitory.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/domain/MsUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/auth/UserConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/auth/AccessTokenRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/auth/MsAccessToken.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/auth/AccessTokenService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/auth/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/js/index/login.js" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/service/AccessTokenService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/auth/AuthDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/js/common/common_base.js" />
-        <option value="$PROJECT_DIR$/src/main/java/mysystem/auth/PropertySourceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/css/common.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/css/index/index.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/js/index/login_form_controller.js" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/js/common/auth_service.js" />
         <option value="$PROJECT_DIR$/src/main/resources/public/js/home/bejelentkezes.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/html/home.html" />
         <option value="$PROJECT_DIR$/src/main/java/destinychild/Application.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/js/home/regisztracio.js" />
         <option value="$USER_HOME$/Desktop/Mentesek/2019.01.12 16_41 destinychild/destinychild/src/main/java/destinychild/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/PageController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/js/index/bejelentkezes.js" />
         <option value="$PROJECT_DIR$/src/main/resources/public/js/common/dao.js" />
-        <option value="$PROJECT_DIR$/src/main/java/destinychild/auth/PropertySourceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/html/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/request/RegisterUserRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/destinychild/domain/MsUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/auth/PropertySourceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/js/common/logservice.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/gamedata/banyak/iridium_banyak.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/accesstoken/PlanetsAccessToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/repository/AccessTokenRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/domain/Planets.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/repository/PlanetsListRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/domain/Planetslist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/repository/PlanetlistRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/domain/Myplanetlist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/domain/Planetlist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/request/regUsernameValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/request/regCoordinateValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/request/OneIntegerParamRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/request/OneStringParamRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/request/CoordinateStringParamRequest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/js/index/regisztracio.js" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/coordinategenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/domain/SolarSystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/generator/coordinateGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/repository/CoordinateGeneratorRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/repository/CoordinateGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/view/SolarView.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/css/home.css" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/view/UserView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/domain/MsUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/domain/FullSolar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/repository/FullSolarRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/repository/CoordinateRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/js/home/test.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/html/home.html" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/repository/CoordinateFullRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/view/FullSolarView.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/js/home/page_controller.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/js/home/fullsolarsearch.js" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/request/SolarCoordinateRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/repository/SolarSystemRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/html/map.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/css/map.css" />
+        <option value="$PROJECT_DIR$/src/main/java/destinychild/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/js/home/mapnavigator.js" />
       </list>
     </option>
   </component>
@@ -329,10 +401,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="480" />
-    <option name="y" value="71" />
-    <option name="width" value="1154" />
-    <option name="height" value="704" />
+    <option name="x" value="156" />
+    <option name="y" value="63" />
+    <option name="width" value="1264" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -401,6 +473,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="destinychild" type="462c0819:PsiDirectoryNode" />
+              <item name="accesstoken" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="destinychild" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="destinychild" type="462c0819:PsiDirectoryNode" />
               <item name="auth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -429,7 +510,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="destinychild" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="destinychild" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="destinychild" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="destinychild" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="destinychild" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
@@ -462,6 +562,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
+              <item name="destinychild" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -481,18 +590,7 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
-              <item name="destinychild" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="destinychild" type="b2602c69:ProjectViewProjectNode" />
@@ -509,7 +607,6 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
           <expand>
@@ -547,15 +644,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="LoginReq&#9;PSI&#9;JAVA://com.github.saphyra.authservice.controller.request.LoginRequest&#10;jpaq&#9;PSI&#9;JAVA://org.springframework.data.jpa.repository.query.JpaQueryCreator&#10;user&#9;FILE&#9;file://A:/mysystem/src/main/resources/public/js/common/dao/user_dao.js&#10;AuthControl&#9;PSI&#9;JAVA://com.github.saphyra.authservice.controller.AuthController&#10;AccessToken&#9;FILE&#9;jar://C:/Users/Magyari Otto/.m2/repository/com/github/saphyra/auth-service/1.0.3/auth-service-1.0.3.jar!/com/github/saphyra/authservice/domain/AccessToken.class&#10;entityManagerFactory&#9;PSI&#9;JAVA://javax.persistence.EntityManagerFactory&#10;dataq&#9;PSI&#9;JAVA://mysystem.service.gamedata.DataQueryService&#10;gamedataf&#9;PSI&#9;JAVA://mysystem.service.GameDataFacade&#10;gameda&#9;FILE&#9;file://A:/mysystem/src/main/java/mysystem/configuration/GameDataConfig.java&#10;armors&#9;PSI&#9;JAVA://mysystem.dataaccess.gamedata.subservice.ArmorService&#10;login&#9;FILE&#9;file://A:/mysystem/src/main/java/mysystem/controller/view/LoginController.java&#10;game&#9;PSI&#9;JAVA://mysystem.configuration.GameDataConfig&#10;acc&#9;PSI&#9;JAVA://mysystem.dataaccess.db.AccessTokenDao" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547390014399" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549820150967" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="A:/Programs/Git/skyxplore2_1" />
+    <property name="last_opened_file_path" value="A:/Programs/Git/skyxplore_3" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -566,11 +664,11 @@
       <recent name="mysystem.controller.request" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="A:\destinychild\src\main\resources\public\js\home" />
+      <recent name="A:\destinychild\src\main\resources\public\css" />
       <recent name="A:\destinychild\src\main\resources\public\js\index" />
       <recent name="A:\destinychild\src\main\resources\public\html" />
       <recent name="A:\mysystem\src\main\resources\public\img" />
-      <recent name="A:\mysystem\src\main\resources\public\js\common" />
-      <recent name="A:\mysystem\src\main\resources\public" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="mysystem.exception" />
@@ -604,7 +702,7 @@
       <module name="destinychild" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="destinychild.*" />
+          <option name="PATTERN" value="destinychild.generator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -650,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547309985421</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Registration validation">
+      <created>1547390078213</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547390078213</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -666,7 +771,7 @@
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27148998" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28653294" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -675,8 +780,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32845744" />
-      <window_info active="true" anchor="bottom" x="0" y="31" width="1434" height="841" id="Run" order="2" sideWeight="0.497851" visible="true" weight="0.29787233" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" x="0" y="31" width="1434" height="841" id="Run" order="2" sideWeight="0.497851" weight="0.26196808" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27792552" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.4162234" />
@@ -705,215 +810,14 @@
     <MESSAGE value="Update auth-service" />
     <MESSAGE value="Register" />
     <MESSAGE value="Register email" />
-    <option name="LAST_COMMIT_MESSAGE" value="Register email" />
+    <MESSAGE value="Registration validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Registration validation" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/dao/user_dao.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/index/registration_form_controller.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1020" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/notificationservice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1020" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/cache.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-865" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/dao/auth_dao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-338" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/css/shop/menu.css" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.7.RELEASE/spring-data-jpa-2.0.7.RELEASE.jar!/org/springframework/data/jpa/repository/query/JpaQueryCreator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.0.6.RELEASE/spring-orm-5.0.6.RELEASE.jar!/org/springframework/orm/jpa/SharedEntityManagerCreator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="197" selection-start-line="197" selection-end-line="197" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.7.RELEASE/spring-data-jpa-2.0.7.RELEASE.jar!/org/springframework/data/jpa/repository/query/JpaQueryExecution.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/dao/community_dao.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/logservice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2854" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/animation/roll.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/common_base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/css/common.css" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.6.RELEASE/spring-jdbc-5.0.6.RELEASE.jar!/org/springframework/jdbc/support/JdbcUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="218" selection-start-line="218" selection-end-line="218" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/css/classes.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/css/index/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/html/characterselect.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.7.RELEASE/spring-data-commons-2.0.7.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/saphyra/encryption/1.0.1/encryption-1.0.1-sources.jar!/com/github/saphyra/encryption/impl/PasswordService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/config/ThymeleafConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/AccessTokenRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/saphyra/exception-handling/1.0.1/exception-handling-1.0.1.jar!/com/github/saphyra/exceptionhandling/DefaultExceptionHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/saphyra/exception-handling/1.0.1/exception-handling-1.0.1.jar!/com/github/saphyra/exceptionhandling/EnableExceptionHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/AccessTokenService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Mentesek/2019.01.12 16_41 destinychild/destinychild/src/main/java/destinychild/controller/PageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/auth_service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/saphyra/auth-service/1.1.0/auth-service-1.1.0.jar!/com/github/saphyra/authservice/controller/request/LoginRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/web/bind/annotation/RequestBody.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/dao/character_dao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/dao.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
@@ -921,109 +825,329 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/css/header.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/css/classes.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/logservice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/common/notificationservice.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/gamedata/banyak/iridium_banyak.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/accesstoken/PlanetsAccessToken.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/AccessTokenService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/AuthDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="59">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/MsAccessToken.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/repository/AccessTokenRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="68">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/html/home.html">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.7.RELEASE/spring-data-commons-2.0.7.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/request/RegisterUserRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/index/bejelentkezes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="27" />
+        <state relative-caret-position="204">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/PropertySourceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/PageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="17">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/request/OneIntegerParamRequest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/request/CoordinateStringParamRequest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/accesstoken/MsAccessToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://A:/Programs/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/repository/CoordinateGeneratorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="88" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/auth/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="390">
           <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/domain/MsUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/generator/coordinateGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/view/UserView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://A:/Programs/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25567">
+          <caret line="1594" selection-start-line="52" selection-end-line="1594" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="21" column="1" lean-forward="true" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/domain/FullSolar.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/repository/FullSolarRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/home/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="76" column="2" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://A:/Programs/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/html/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/view/SolarView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/repository/CoordinateFullRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/repository/CoordinateRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/index/bejelentkezes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-584">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/home/fullsolarsearch.js.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/home/mapnavigator2.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/view/FullSolarView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/request/OneStringParamRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/request/RegisterUserRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/request/SolarCoordinateRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/repository/SolarSystemRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/domain/MsUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="306">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/home/page_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/domain/SolarSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/index/regisztracio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="84" column="41" lean-forward="true" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+        <state relative-caret-position="-106">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/css/map.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/html/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="153" column="78" selection-start-line="153" selection-start-column="78" selection-end-line="153" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#6;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#2;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#2;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#2;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#7;n#tr#2;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/destinychild/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="78" column="87" selection-start-line="78" selection-start-column="60" selection-end-line="78" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/js/home/mapnavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
         </state>
       </provider>
     </entry>

@@ -3,11 +3,12 @@
     <SCRIPT src="js/common/jquery.js"></SCRIPT>
     <SCRIPT src="js/common/common_base.js"></SCRIPT>
 
-    <SCRIPT src="js/home/page_controller.js"></SCRIPT>
+	<SCRIPT src="js/home/page_controller.js"></SCRIPT>
+    <SCRIPT src="js/home/mapnavigator.js"></SCRIPT>
 
     <LINK rel="stylesheet" href="../css/classes.css">
     <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/map.css">
 </head>
 <table id="tabla1" style="background-image: url('../img/sun.jpg');">
     <tr>
@@ -32,13 +33,13 @@
                                         <tr>
                                             <td>Tantal:</td>
                                         </tr>
-										<tr>
+                                        <tr>
                                             <td>Palladaium:</td>
                                         </tr>
                                     </table>
-								</td>
-								<td  id="td8" colspan="2">
-									<table style="color: white; align: center; margin: 0 auto;">
+                                </td>
+                                <td  id="td8" colspan="2">
+                                    <table style="color: white; align: center; margin: 0 auto;">
                                         <tr>
                                             <td><a id="iridium">1.000.000</a></td>
                                         </tr>
@@ -51,7 +52,7 @@
                                         <tr>
                                             <td><a id="tantal">1.000.000.000</a></td>
                                         </tr>
-										<tr>
+                                        <tr>
                                             <td><a id="palaldium">10.000.000.000</a></td>
                                         </tr>
                                     </table>
@@ -102,11 +103,11 @@
                                         <tr>
                                             <td>
                                                 <a href="/home"><img src="../img/menu_gomb_kezdolap.png" id="menu_gomb"></a>
-												<a href="/map"><img src="../img/menu_gomb_kezdolap.png" id="menu_gomb"></a>
-												<a href="/home"><img src="../img/menu_gomb_kezdolap.png" id="menu_gomb"></a>
-												<a href="/home"><img src="../img/menu_gomb_kezdolap.png" id="menu_gomb"></a>
-												<a href="/home"><img src="../img/menu_gomb_kezdolap.png" id="menu_gomb"></a>
-											</td>
+                                                <a href="/map"><img src="../img/menu_gomb_kezdolap.png" id="menu_gomb"></a>
+                                                <a href="/home"><img src="../img/menu_gomb_kezdolap.png" id="menu_gomb"></a>
+                                                <a href="/home"><img src="../img/menu_gomb_kezdolap.png" id="menu_gomb"></a>
+                                                <a href="/home"><img src="../img/menu_gomb_kezdolap.png" id="menu_gomb"></a>
+                                            </td>
                                         </tr>
                                     </table>
                                 </td>
@@ -119,40 +120,57 @@
     </tr>
 </table>
 <body onload="st();setInterval('st()',1000)" id="background">
+<div id="kozepe">
+    <table id="map_tabla1">
+        <tr>
+            <td id="home_td">
+                <table id="map_tabla2" >
+                    <tr style="height:15px;">
+                        <td>
+						<table id="map_tabla3" >
+							<tr>
+								<td>
+                                    <table id="maptab">
+                                        <tr style="background-color: rgb(0, 37, 51);height: 30px;">
+                                            <td colspan="7">
+                                                <a>Univerzum(1-10):<input type="number" id="universenumber" min="1" max="10" value="1"></a>
+                                                <a>System(1-500):</a><input type="number" id="systemnumber" min="1" max="500" value="302"></a>
+                                                <button onclick="betoltes()">Betoltes</button>
 
-	  
-	  
-	  
-<div id="kozepe" style="background-image: url('../img/sun.jpg');">
-	<table id="home_tabla1">
-		<tr>
-			<td id="home_td">
-				<table id="home_tabla2" >
-					<tr style="height:15px;">
-						<td>1</td>
-						<td colspan="2" align="center"></td>
-					</tr>
-				</table>
-			</td>
-			<td id="home_td">
-				<table id="home_tabla3">
-					<tr style="height:15px;">
-						<td colspan="2" align="center">
-                            <div id="coordinateFull"></div>
-                            <a id="planetnumber"></a>
-                        </td>
-					</tr>
-				</table>
-			</td>
-			
-		</tr>
-		
-	</table>
+                                            </td>
+                                        </tr>
+                                        <tr style="background-color: rgb(0, 37, 51);height: 30px;">
+                                            <td style="width: 100px;">Bolygo</td>
+                                            <td style="width: 200px;">nev</td>
+                                            <td style="width: 70px;">hold</td>
+                                            <td style="width: 70px;">tormelek</td>
+                                            <td style="width: 200px;">jatekosnev</td>
+                                            <td style="width: 150px;">szovetseg</td>
+                                            <td style="width: 150px;">muvelet</td>
+                                        </tr>
+                                        <tr>
+                                            <td id="fullsolar" style="width:100px;"></td>
+                                            <td id="datum"></td>
+                                            <td style="width: 200px;">nev</td>
+                                            <td style="width: 70px;">tormelek</td>
+                                            <td style="width: 200px;">jatekosnev</td>
+                                            <td style="width: 150px;">szovetseg</td>
+                                            <td style="width: 150px;">muvelet</td>
+                                        </tr>
+                                    </table>
+								</td>
+							</tr>
+						</table>
+						</td>
+                    </tr>
+                </table>
+            </td>
+            <td id="home_td">
+            </td>
+        </tr>
+
+    </table>
 </div>
-
-
-
-
 <div id="alja">
     <a>Keszitette: Magyari Otto</a>
 </div>
